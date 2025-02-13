@@ -1,50 +1,22 @@
-# React + TypeScript + Vite
+# ProgamBlog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao ProgamBlog, um site de programação para te ajudar a se tornar um DEV.
+## Objetivo:
+Este site foi criado com o objetivo de fornecer informações sobre programação.
 
-Currently, two official plugins are available:
+## Conheça o projeto
+![ProgamBlog](https://github.com/santiagobruna/ProgamBlog/assets/99828311/563cca2b-8aed-43b2-9ea5-8457f3a9d3a8)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+### Tecnologias utilizadas
+* Front-end: Este projeto incorpora as melhores práticas e tecnologias mais recentes, desde a estruturação com **HTML** e estilização com **CSS**, até a dinamicidade com **JavaScript** e a eficiência no desenvolvimento de interfaces com **React**.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+* Styled Components: Utilizei o Styled Components para criar componentes estilizados de maneira modular e reutilizável, garantindo um código mais limpo e organizado.
 
-- Configure the top-level `parserOptions` property like this:
+* TypeScript: Implementei o TypeScript para garantir uma tipagem estática robusta, que ajudou a evitar erros comuns durante o desenvolvimento e facilitou a manutenção do código.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Design Responsivo:
+ Nosso site é projetado para se adaptar a todos os dispositivos, proporcionando uma experiência consistente, independentemente de você estar usando um computador, tablet ou smartphone.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Link do projeto
+Clique aqui para visualizar o projeto <https://program-blog.vercel.app/>
